@@ -9,13 +9,24 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
+    "@expo/webpack-config": "^19.0.0",
+    "@rneui/base": "^4.0.0-rc.8",
+    "@rneui/themed": "^4.0.0-rc.8",
+    "@types/react": "~18.2.14",
     "expo": "~49.0.15",
+    "expo-image": "~1.3.5",
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
-    "react-native": "0.72.6"
+    "react-dom": "18.2.0",
+    "react-native": "0.72.6",
+    "react-native-svg": "13.9.0",
+    "react-native-web": "~0.19.6",
+    "typescript": "^5.3.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "tailwindcss": "^3.3.5"
   },
   "private": true
 }
